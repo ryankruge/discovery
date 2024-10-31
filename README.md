@@ -1,9 +1,11 @@
 # Discovery (ARP Device Discovery Tool
 Discovery is a device discovery tool that operates via ARP packets that are transmitted across the network. It is quick to deploy and automatically determines which network interfaces you wish to use as well as calculates your subnet mask and its corresponding CIDR notation.
 # Application Usage
+## Support:
+Currently, this tool is supported on both **Windows** and **Linux**.
 ## Requirements:
-- Scapy
-- JSON
+- Scapy Library
+- JSON Library
 ```
 python -m pip install ./requirements.txt
 ```
