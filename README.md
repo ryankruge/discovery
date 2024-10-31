@@ -1,8 +1,8 @@
 # Discovery (Device Discovery Tool)
-Discovery is a device discovery tool that operates via ARP packets that are transmitted across the network. It is quick to deploy and automatically determines which network interfaces you wish to use as well as calculates your subnet mask and its corresponding CIDR notation.
+Discovery is a device discovery tool that operates via the use of address resolution (ARP) packets that are transmitted across the network. It is quick to deploy and automatically determines which network card to use. The IP address corresponding to that network interface card is then used to determine the subnet mask in the form of CIDR notation.
 # Application Usage
 ## Support:
-Currently, this tool is supported on both **Windows** and **Linux**.
+Currently, this tool is supported on both **Windows** and **Linux**. Most functions / libraries used within this application are already cross-platform and therefore only small changes have been needed to support both platforms.
 ## Requirements:
 - Scapy Library
 - JSON Library
