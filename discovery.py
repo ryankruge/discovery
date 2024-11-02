@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# All software written by Tomas. (https://github.com/shelbenheimer/ata-shell)
+# All software written by Tomas. (https://github.com/shelbenheimer)
 
 from scapy.all import ARP, srp, Ether, get_if_addr, conf
 from json import load
@@ -7,7 +7,7 @@ import time
 import sys
 import os
 
-BANNER      = "Software written by Tomas. Available on GitHub. (https://github.com/shelbenheimer/ata-shell)"
+BANNER      = "Software written by Tomas. Available on GitHub. (https://github.com/shelbenheimer)"
 VENDOR_PATH = "Resources/manuf.json"
 
 class Discovery:
@@ -71,9 +71,9 @@ class Discovery:
 
 def Main():
 	try:
-		discovery = Discovery()
-
 		print(BANNER)
+		
+		discovery = Discovery()
 		if not discovery.PopulateVendors():
 			print("Failed to populate manufacturer database.")
 
