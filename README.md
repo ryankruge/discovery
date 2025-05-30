@@ -6,7 +6,7 @@ Currently, this tool is supported on both **Windows** and **Linux**. Most functi
 ## Requirements:
 - Scapy Library
 - JSON Library
-- WinPcap Binaries (https://www.winpcap.org/install/)
+- Npcap Binaries (npcap.com/#download)
 ```
 python -m pip install ./requirements.txt
 ```
