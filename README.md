@@ -9,7 +9,7 @@ Discovery is a Python-written host discovery tool that operates via the CLI.
 ## Guide
 1. If not already installed, install [PipX](https://pipx.pypa.io/stable/installation/).
 2. In the root directory of the application, execute `pipx install .`
-3. After the installation is complete, ensure that `~/.local/bin` is added to PATH.
+3. After the installation is complete, ensure that `~/.local/bin` is added to PATH.\
 For step three, append `export PATH=$PATH:~/.local/bin`
 ## Requirements (Manual Installation Only)
 - Scapy
