@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "discovery"
-version = "0.1.0"
+version = "2.4"
 description = "Network discovery and analysis tool."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-discovery = "discovery.__main__:main"
+discovery = "discovery.__main__:Main"
 
 [tool.setuptools]
 include-package-data = true

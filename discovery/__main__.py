@@ -1,4 +1,4 @@
-from discovery.discovery import main
+from discovery.discovery import Main
 
 if __name__ == "__main__":
-	main()
+	Main()

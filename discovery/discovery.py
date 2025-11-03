@@ -103,7 +103,7 @@ def ParseArguments(arguments, parameters):
 				parameters['Passive'] = True
 	return populated_parameters
 
-def main():
+def Main():
 	try:
 		print(BANNER)
 		
