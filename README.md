@@ -9,13 +9,13 @@ Discovery is a Python-written host discovery tool that operates via CLI.
 ## Guide
 1. If not already installed, install [PipX](https://pipx.pypa.io/stable/installation/).
 2. In the root directory of the application, execute `pipx install .`
-3. After the installation has completed, ensure that `~/.local/bin` is added to PATH.
+3. After the installation is complet, ensure that `~/.local/bin` is added to PATH.
 # Application Usage
 ## General CLI Usage
 This application operates by default in aggressive mode, therefore, passive scanning will need to manually enabled.
 ## CLI Flags
-`-h` - Displays the help dialogue to reveal usable CLI flags.
-`-p` - Enables passive scan mode.
+`-h` - Displays the help dialogue to reveal usable CLI flags.\
+`-p` - Enables passive scan mode.\
 `-d` - Specifies the time (in seconds) that the scan will be terminated in passive mode.
 ## Requirements (Manual Installation Only)
 - Scapy
