@@ -1,14 +1,15 @@
-# Discovery (Device Discovery Tool)
-Discovery is a device discovery tool that operates via the use of address resolution (ARP) packets that are transmitted across the network. It is quick to deploy and automatically determines which network card to use. The IP address corresponding to that network interface card is then used to determine the subnet mask in the form of CIDR notation. You can initiate an active scan which actively broadcasts ARP packets asking what devices are on the network, or a passive scan which listens for outgoing ARP packets without broadcasting anything to the rest of the network.
+# Discovery (Network Device Discovery Tool)
+Discovery is a network device discovery and analysis tool that operates via the use of **Address Resolution Protocol** (ARP) packets that are *optionally* broadcasted across the network. It is quick to deploy and automatically determines which network card to use. You can initiate an active scan which actively broadcasts ARP packets across the network, or launch a passive scan to passively listen for outgoing ARP packets——a much stealthier option for detection avoidance, but takes longer.
+# Installation
+## Guide
+1. If not already installed, install [PipX](https://pipx.pypa.io/stable/installation/).
+2. In the root directory of the application, execute `pipx install .`
+3. After the installation has completed, ensure that `~/.local/bin` is added to PATH.
 # Application Usage
-## Support:
-Currently, this tool is supported on both **Windows** and **Linux**. Most functions / libraries used within this application are already cross-platform and therefore only small changes have been needed to support both platforms.
-## Requirements:
+## Support
+This application was written in Python, and therefore supports Windows, Linux, and MacOS.
+## Requirements
 - Scapy Library
-- JSON Library
-- Npcap Binaries (npcap.com/#download)
-```
-python -m pip install ./requirements.txt
-```
-## Summary:
-This is an active reconnaissance tool and therefore it can be easily detected on networks that have active monitoring by systems such as an IDS or an administrator. If this tool is required for stealth usage, you should **NOT** use it as it uses broadcast frames which transmit across the entire network until it reaches its destination.
+- [Npcap](npcap.com/#download) (Windows)
+## Summary
+This is a reconnaissance tool which, if used incorrectly, will be detected by networks with basic security measures in place. The use of this software should be kept within the bounds of local and federal laws and regulations. I will not accept responsibility for any repercussions incurred by such misuse.
