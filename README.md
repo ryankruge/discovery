@@ -12,7 +12,7 @@ Discovery is a Python-written host discovery tool that operates via the CLI.
 3. After the installation is complete, ensure that `~/.local/bin` is added to PATH. Simply append `export PATH=$PATH:~/.local/bin` to `~/.bashrc`.
 ## Requirements (Manual Installation Only)
 - Scapy
-- [Npcap](npcap.com/#download) (Windows)
+- [Npcap](npcap.com/#download) (*Windows*)
 # Application Usage
 ## General CLI Usage
 This application operates by default in aggressive mode, therefore, passive scanning will need to manually enabled.
